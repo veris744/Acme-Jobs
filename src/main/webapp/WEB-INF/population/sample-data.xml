@@ -19,6 +19,29 @@
 
 	<import resource="classpath:/WEB-INF/population/conversion-service.xml"/>	
 
+	<!-- shouts -->
+		
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2020/01/01 19:39"/>
+		<property name="author" value="John Doe"/>
+		<property name="text" value="I'm happy!"/>
+		<property name="info"><null/></property>
+	</bean>
+	
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2020/08/01 15:39"/>
+		<property name="author" value="Jane Doe"/>
+		<property name="text" value="I'm the master of my room!"/>
+		<property name="info" value="http://www.example.org"/>
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2020/02/01 19:39"/>
+		<property name="author" value="Foo Difai"/>
+		<property name="text" value="I'm not happy!"/>
+		<property name="info"><null/></property>
+	</bean>
+
 	<!-- Employers -->
 
 	<bean name="employer1UserAccount" class="acme.framework.entities.UserAccount">
@@ -208,5 +231,5 @@
 		<property name="picture" value="https://i.imgur.com/2eVF1HG.png"/>
 		<property name="target" value="https://www.afoprodei.com/"/>
 	</bean>
-		
+
 </beans>
