@@ -18,6 +18,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	@Autowired
 	protected AnonymousShoutRepository repository;
 	
+
 	@Override
 	public boolean authorise (final Request<Shout> request) {
 		assert request != null;
