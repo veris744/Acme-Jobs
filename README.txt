@@ -13,4 +13,4 @@ who have enroled the Design and Testing subject of the Software Engineering curr
 University of Sevilla.  This project is intended to illustrate how to develop a simple web
 information system.
 
-Estamos actualizando el README
+Probando.
